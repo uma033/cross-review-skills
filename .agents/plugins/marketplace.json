@@ -1,0 +1,20 @@
+{
+  "name": "cross-review-skills",
+  "interface": {
+    "displayName": "Cross Review Skills"
+  },
+  "plugins": [
+    {
+      "name": "cross-review",
+      "source": {
+        "source": "local",
+        "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Engineering"
+    }
+  ]
+}

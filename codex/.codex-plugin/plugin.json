@@ -1,0 +1,25 @@
+{
+  "name": "cross-review",
+  "description": "Codex reviews the diff, calls Claude Code for an independent review, then adjudicates and merges both reports.",
+  "author": {
+    "name": "uma033"
+  },
+  "homepage": "https://github.com/uma033/cross-review-skills",
+  "repository": "https://github.com/uma033/cross-review-skills",
+  "license": "MIT",
+  "keywords": ["code-review", "cross-model", "claude", "engineering"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Cross Review",
+    "shortDescription": "Codex + Claude review, adjudicated and merged",
+    "longDescription": "Run a strict Codex primary review and an independent Claude Code cross-check against the same diff, then have Codex adjudicate every finding as Accepted, Rejected, or Hold and emit one merged report.",
+    "developerName": "uma033",
+    "category": "Engineering",
+    "capabilities": ["Instructions"],
+    "websiteURL": "https://github.com/uma033/cross-review-skills",
+    "defaultPrompt": [
+      "Use $cross-review:cross-review to review this branch against origin/main.",
+      "Run a Codex+Claude cross-review and give me one merged report."
+    ]
+  }
+}

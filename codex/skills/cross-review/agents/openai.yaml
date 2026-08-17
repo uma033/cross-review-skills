@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cross Review"
+  short_description: "Merge Codex and Claude review findings"
+  default_prompt: "Use $cross-review:cross-review to run one-step Codex+Claude review and generate a merged adjudicated report."

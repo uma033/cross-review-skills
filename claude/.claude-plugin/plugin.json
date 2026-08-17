@@ -1,0 +1,11 @@
+{
+  "name": "cross-review",
+  "description": "Claude reviews the diff, calls Codex for an independent review, and verifies each finding before convergence.",
+  "author": {
+    "name": "uma033"
+  },
+  "homepage": "https://github.com/uma033/cross-review-skills",
+  "repository": "https://github.com/uma033/cross-review-skills",
+  "license": "MIT",
+  "keywords": ["code-review", "cross-model", "codex", "engineering"]
+}

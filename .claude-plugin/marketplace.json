@@ -1,0 +1,16 @@
+{
+  "name": "cross-review-skills",
+  "owner": {
+    "name": "uma033"
+  },
+  "description": "Independent Claude + Codex cross-review",
+  "plugins": [
+    {
+      "name": "cross-review",
+      "source": "./claude",
+      "description": "Claude reviews the diff, calls Codex for an independent review, and verifies each finding before convergence.",
+      "repository": "https://github.com/uma033/cross-review-skills",
+      "license": "MIT"
+    }
+  ]
+}

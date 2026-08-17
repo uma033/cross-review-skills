@@ -1,0 +1,3 @@
+interface:
+  display_name: "Code Review Specialist"
+  short_description: "Find regressions, bugs, and test gaps in diffs"
